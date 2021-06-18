@@ -8,5 +8,8 @@ def Cap_name(object_list):
         return value
 
 
-Cap_name(list_name)        
+Cap_name(list_name)
+
+# list compre...
+ls = [item.upper() for item in list_name]
     
